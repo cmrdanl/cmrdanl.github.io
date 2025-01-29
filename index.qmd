@@ -1,8 +1,8 @@
 ---
 title: "Caitlin Roos" 
 about:
-  template: marquee  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  template: broadside  # jolla  trestles  solana  marquee  broadside
+  image: img/profile_picture.png
   image-width: 16em
   image-shape: rounded # rectangle  round  rounded
   
@@ -19,7 +19,7 @@ about:
       target: _blank
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:cmr101@geneseo.edu
 
 ---
 
