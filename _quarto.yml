@@ -17,8 +17,8 @@ website:
 format:
   html:
     theme: 
-      light: yeti # flatly sandstone yeti united litera journal
-      dark: cyborg #  darkly cyborg slate solra superhero
+      light: flatly # flatly sandstone yeti united litera journal
+      dark: darkly #  darkly cyborg slate solra superhero
     mainfont: system-ui; 
     highlight-style: atom-one  # atom-one espresso
     css: styles.css

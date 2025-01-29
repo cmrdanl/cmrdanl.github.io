@@ -1,23 +1,20 @@
 ---
-title: "Caitlin Roos" 
+title: "YOUR NAME" 
 about:
   template: jolla  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
   image-width: 16em
-  image-shape: rounded # rectangle  round  rounded
+  image-shape: round # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
-    - icon: instagram
-      text: Instagram
-      href: https://instagram.com
     - icon: github
       text: GitHub
       href: https://github.com
     - icon: file-earmark-pdf
-      text: Resugitmé
+      text: Resumé
       href: resume-example.pdf
       target: _blank
     - icon: mailbox
