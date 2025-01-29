@@ -1,10 +1,10 @@
 ---
-title: "YOUR NAME" 
+title: "Caitlin Roos" 
 about:
-  template: jolla  # jolla  trestles  solana  marquee  broadside
+  template: marquee  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
   image-width: 16em
-  image-shape: round # rectangle  round  rounded
+  image-shape: rounded # rectangle  round  rounded
   
   links:
     - icon: linkedin
@@ -24,16 +24,16 @@ about:
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Caitlin Roos majors in Mathematics with a minor in Data Analysis at SUNY Geneseo. When not working on mathematics, Caitlin enjoys spending time with family and reading.
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Economics
+B.S. in Mathematics | Jan 2021 - Dec 2025 <br>
+Minor in Data Analysis
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+----| ----- | -- --- -  ----
 
 
