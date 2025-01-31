@@ -12,7 +12,7 @@ about:
       href: https://linkedin.com
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/cmrdanl/cmrdanl.github.io
     - icon: file-earmark-pdf
       text: Resumé
       href: resume-example.pdf
