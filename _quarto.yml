@@ -12,6 +12,10 @@ website:
         menu: 
           - text: Data Analysis 210
             href: danl_proj_nba.ipynb
+          - text: Fish Sustainability
+            href: Fish_Sustainability_Project.pdf
+          - text: The Ear as a Fourier Trnasformation
+            href: Least_Squares.pdf
       
       - text: Blog
         href: blog-listing.qmd
