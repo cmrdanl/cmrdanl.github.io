@@ -1,0 +1,13 @@
+---
+title: Python Basics
+author: Caitlin ROos
+date: 2025-02-14
+categories: [python, code, introduction] # tags for a blog post (e.g., python)
+image: thumbnail.jpg 
+  
+toc: true
+---
+
+![](thumbnail.jpg)
+
+In lectures 4 & 5 and classwork 4, we went over both for and while loops and compared and contrasted them. We also worked alot with lists, iterating through them and picking out certain elements. We learned how to iterate through a string, and the purpose of 'break', 'continue', 'else', 'if'. We also learned what a dictionary was and how to build them. 
