@@ -1,6 +1,6 @@
 ---
 title: Python Basics
-author: Caitlin ROos
+author: Caitlin Roos
 date: 2025-02-14
 categories: [python, code, introduction] # tags for a blog post (e.g., python)
 image: thumbnail.jpg 
