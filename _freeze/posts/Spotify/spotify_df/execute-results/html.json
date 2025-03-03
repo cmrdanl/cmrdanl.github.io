@@ -1,0 +1,12 @@
+{
+  "hash": "df23f45e5dd1523fef77861a3bf4bda0",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Spotify Analysis\nauthor: Caitlin Roos\ndate: 2025-03-02\ncategories: [spotify, code, analysis]\nimage: spotify.png\n\ntoc: true\n---\n\n\nLet's analyze the `Spotify` data:\n\n\n```{py}\nimport pandas as pd\nspotify = pd.read_csv('https://bcdanl.github.io/data/spotify_all.csv')\nspotify\n\n```\n\n\nMy favorite artist is Miranda Lambert, lets see which of her songs are in this dataframe.\n\n```{py}\n_mir = (\n    spotify[spotify['artist_name']=='Miranda Lambert'] #sort out my FAV artist\n    .drop_duplicates(subset=['track_name']) # list each track only once, as it may be in multiple playlists\n    )\n_mir[[\"artist_name\", 'track_name']] # list only artist name and track, rest is gibberish\n```\n\n[]\nLets see what song in this dateframe has the longest runtime. \n\n\n```{py}\nspotify.sort_values('duration_ms', ascending= False)[:1]\n\n```\n\n[]\nLets see what the average length of one of Miranda Lamberts songs is.\n\n\n```{py}\nave = _mir['duration_ms'].mean().round()\n\nave\n\n```\n\n[]\nLets see how many songs by Miranda Lambert have a shorter runtime than the average we found above of 210422 milliseconds.\n\n\n```{py}\n_mir.query(f\"duration_ms < {ave}\")\n\n```\n\n",
+    "supporting": [
+      "spotify_df_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

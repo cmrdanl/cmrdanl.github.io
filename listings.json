@@ -2,8 +2,8 @@
   {
     "listing": "/blog-listing.html",
     "items": [
+      "/posts/Spotify/HWK__2_Spotify.html",
       "/posts/Python Basics/index.html",
-      "/posts/Spotify/spotify_df.html",
       "/posts/post-with-code/index.html"
     ]
   }

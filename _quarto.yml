@@ -10,8 +10,6 @@ website:
     left:
       - text: Projects
         menu: 
-          - text: Data Analysis 210
-            href: danl_proj_nba.ipynb
           - text: Fish Sustainability
             href: Fish_Sustainability_Project.pdf
           - text: The Ear as a Fourier Trnasformation
