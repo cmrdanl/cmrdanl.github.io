@@ -14,6 +14,34 @@
     "text": "In lectures 4 & 5 and classwork 4, we went over both for and while loops and compared and contrasted them. We also worked alot with lists, iterating through them and picking out certain elements. We learned how to iterate through a string, and the purpose of ‘break’, ‘continue’, ‘else’, ‘if’. We also learned what a dictionary was and how to build them."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Caitlin Roos",
+    "section": "",
+    "text": "Caitlin Roos majors in Mathematics with a minor in Data Analysis at SUNY Geneseo. When not working on mathematics, Caitlin enjoys spending time with family and reading."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Caitlin Roos",
+    "section": "Education",
+    "text": "Education\nState University of New York at Geneseo | Geneseo, NY  B.S. in Mathematics | Jan 2021 - Dec 2025  Minor in Data Analysis"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Caitlin Roos",
+    "section": "Experience",
+    "text": "Experience\nPython | RStudio | LaTex | MATLAB"
+  },
+  {
+    "objectID": "blog-listing.html",
+    "href": "blog-listing.html",
+    "title": "Insightful Analytics",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSpotify Analysis\n\n\n\n\n\n\n\n\nMar 2, 2025\n\n\nCailtin Roos\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nCaitlin Roos\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "pandas_basics.html#creating-a-series",
     "href": "pandas_basics.html#creating-a-series",
     "title": "Pandas Basics",
@@ -54,41 +82,6 @@
     "title": "Pandas Basics",
     "section": "Adding a New Column",
     "text": "Adding a New Column\n\n\n# Adding a new column\ndf[\"Salary\"] = [50000, 60000, 70000]\ndf\n\n\n  \n    \n\n\n\n\n\n\nName\nAge\nCity\nSalary\n\n\n\n\n0\nAlice\n25\nNew York\n50000\n\n\n1\nBob\n30\nLos Angeles\n60000\n\n\n2\nCharlie\n35\nChicago\n70000\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n  \n    \n    \n\n  \n    \n  \n    \n    \n  \n\n    \n  \n\n\n    ## Conclusion\n\n    This notebook covers the basic operations of pandas. You can explore more advanced features like merging,\n    joining, and working with time series data in pandas documentation: https://pandas.pydata.org/docs/"
-  },
-  {
-    "objectID": "blog-listing.html",
-    "href": "blog-listing.html",
-    "title": "Insightful Analytics",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSpotify Analysis\n\n\n\n\n\n\n\n\nMar 2, 2025\n\n\nCailtin Roos\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nCaitlin Roos\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Caitlin Roos",
-    "section": "",
-    "text": "Caitlin Roos majors in Mathematics with a minor in Data Analysis at SUNY Geneseo. When not working on mathematics, Caitlin enjoys spending time with family and reading."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Caitlin Roos",
-    "section": "Education",
-    "text": "Education\nState University of New York at Geneseo | Geneseo, NY  B.S. in Mathematics | Jan 2021 - Dec 2025  Minor in Data Analysis"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Caitlin Roos",
-    "section": "Experience",
-    "text": "Experience\nPython | RStudio | LaTex | MATLAB"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code with no space in the folder name.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "posts/Spotify/HWK__2_Spotify.html",
