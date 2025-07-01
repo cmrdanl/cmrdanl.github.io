@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "seaborn_basics.html",
-    "href": "seaborn_basics.html",
-    "title": "Seaborn Example",
-    "section": "",
-    "text": "import seaborn as sns\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# Sample data\ndata = {\n    'Category': ['A', 'B', 'C', 'D'],\n    'Values': [23, 45, 56, 78]\n}\ndf = pd.DataFrame(data)\n\n# Create a barplot\nsns.set(style=\"whitegrid\")  # Optional: Set a clean grid style\nplt.figure(figsize=(8, 6))  # Set the figure size\nsns.barplot(data=df, x='Category', y='Values', palette='viridis')\n\n# Customize the plot\nplt.title(\"Bar Plot Example\", fontsize=16)\nplt.xlabel(\"Category\", fontsize=12)\nplt.ylabel(\"Values\", fontsize=12)\n\n# Show the plot\nplt.show()\n\nFutureWarning: \n\nPassing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.\n\n  sns.barplot(data=df, x='Category', y='Values', palette='viridis')"
-  },
-  {
-    "objectID": "posts/Python Basics/index.html",
-    "href": "posts/Python Basics/index.html",
-    "title": "Python Basics",
-    "section": "",
-    "text": "In lectures 4 & 5 and classwork 4, we went over both for and while loops and compared and contrasted them. We also worked alot with lists, iterating through them and picking out certain elements. We learned how to iterate through a string, and the purpose of ‘break’, ‘continue’, ‘else’, ‘if’. We also learned what a dictionary was and how to build them."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Caitlin Roos",
     "section": "",
-    "text": "Caitlin Roos majors in Mathematics with a minor in Data Analysis at SUNY Geneseo. When not working on mathematics, Caitlin enjoys spending time with family and reading."
+    "text": "Caitlin Roos is a Mathematics major with a minoring in Data Analysis at SUNY Geneseo. Cailtin also works a full-time job at Starbucks whilist persuing her academic ambitions."
   },
   {
     "objectID": "index.html#education",
@@ -33,61 +19,5 @@
     "title": "Caitlin Roos",
     "section": "Experience",
     "text": "Experience\nPython | RStudio | LaTex | MATLAB"
-  },
-  {
-    "objectID": "blog-listing.html",
-    "href": "blog-listing.html",
-    "title": "Insightful Analytics",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSpotify Analysis\n\n\n\n\n\n\n\n\nMar 2, 2025\n\n\nCailtin Roos\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nCaitlin Roos\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "pandas_basics.html#creating-a-series",
-    "href": "pandas_basics.html#creating-a-series",
-    "title": "Pandas Basics",
-    "section": "Creating a Series",
-    "text": "Creating a Series\n\n\n# Creating a Series from a list\ndata = [10, 20, 30, 40, 50]\nseries = pd.Series(data)\nseries\n\n\n\n\n\n\n\n\n0\n\n\n\n\n0\n10\n\n\n1\n20\n\n\n2\n30\n\n\n3\n40\n\n\n4\n50\n\n\n\n\ndtype: int64"
-  },
-  {
-    "objectID": "pandas_basics.html#creating-a-dataframe",
-    "href": "pandas_basics.html#creating-a-dataframe",
-    "title": "Pandas Basics",
-    "section": "Creating a DataFrame",
-    "text": "Creating a DataFrame\n\n\n# Creating a DataFrame from a dictionary\ndata = {\n    \"Name\": [\"Alice\", \"Bob\", \"Charlie\"],\n    \"Age\": [25, 30, 35],\n    \"City\": [\"New York\", \"Los Angeles\", \"Chicago\"]\n}\ndf = pd.DataFrame(data)\ndf\n\n\n  \n    \n\n\n\n\n\n\nName\nAge\nCity\n\n\n\n\n0\nAlice\n25\nNew York\n\n\n1\nBob\n30\nLos Angeles\n\n\n2\nCharlie\n35\nChicago"
-  },
-  {
-    "objectID": "pandas_basics.html#exploring-data",
-    "href": "pandas_basics.html#exploring-data",
-    "title": "Pandas Basics",
-    "section": "Exploring Data",
-    "text": "Exploring Data\n\n\n# Display the first few rows\ndf.head()\n\n# Display the shape of the DataFrame\nprint(\"Shape:\", df.shape)\n\n# Display summary statistics\ndf.describe()\n\nShape: (3, 3)\n\n\n\n  \n    \n\n\n\n\n\n\nAge\n\n\n\n\ncount\n3.0\n\n\nmean\n30.0\n\n\nstd\n5.0\n\n\nmin\n25.0\n\n\n25%\n27.5\n\n\n50%\n30.0\n\n\n75%\n32.5\n\n\nmax\n35.0"
-  },
-  {
-    "objectID": "pandas_basics.html#selecting-data",
-    "href": "pandas_basics.html#selecting-data",
-    "title": "Pandas Basics",
-    "section": "Selecting Data",
-    "text": "Selecting Data\n\n# Selecting a single column\ndf[\"Name\"]\n\n\n\n\n\n\n\n\nName\n\n\n\n\n0\nAlice\n\n\n1\nBob\n\n\n2\nCharlie\n\n\n\n\ndtype: object\n\n\n\n# Selecting multiple columns\ndf[[\"Name\", \"City\"]]\n\n\n  \n    \n\n\n\n\n\n\nName\nCity\n\n\n\n\n0\nAlice\nNew York\n\n\n1\nBob\nLos Angeles\n\n\n2\nCharlie\nChicago\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\n# Selecting rows by index\ndf.iloc[0]\n\n\n\n\n\n\n\n\n0\n\n\n\n\nName\nAlice\n\n\nAge\n25\n\n\nCity\nNew York\n\n\n\n\ndtype: object"
-  },
-  {
-    "objectID": "pandas_basics.html#filtering-data",
-    "href": "pandas_basics.html#filtering-data",
-    "title": "Pandas Basics",
-    "section": "Filtering Data",
-    "text": "Filtering Data\n\n# Filtering rows where Age is greater than 25\nfiltered_df = df[df[\"Age\"] &gt; 25]\nfiltered_df\n\n\n  \n    \n\n\n\n\n\n\nName\nAge\nCity\n\n\n\n\n1\nBob\n30\nLos Angeles\n\n\n2\nCharlie\n35\nChicago"
-  },
-  {
-    "objectID": "pandas_basics.html#adding-a-new-column",
-    "href": "pandas_basics.html#adding-a-new-column",
-    "title": "Pandas Basics",
-    "section": "Adding a New Column",
-    "text": "Adding a New Column\n\n\n# Adding a new column\ndf[\"Salary\"] = [50000, 60000, 70000]\ndf\n\n\n  \n    \n\n\n\n\n\n\nName\nAge\nCity\nSalary\n\n\n\n\n0\nAlice\n25\nNew York\n50000\n\n\n1\nBob\n30\nLos Angeles\n60000\n\n\n2\nCharlie\n35\nChicago\n70000\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n  \n    \n    \n\n  \n    \n  \n    \n    \n  \n\n    \n  \n\n\n    ## Conclusion\n\n    This notebook covers the basic operations of pandas. You can explore more advanced features like merging,\n    joining, and working with time series data in pandas documentation: https://pandas.pydata.org/docs/"
-  },
-  {
-    "objectID": "posts/Spotify/HWK__2_Spotify.html",
-    "href": "posts/Spotify/HWK__2_Spotify.html",
-    "title": "Spotify Analysis",
-    "section": "",
-    "text": "Lets examine the Spotify data frame.\n\n\nimport pandas as pd\nspotify = pd.read_csv('https://bcdanl.github.io/data/spotify_all.csv')\nspotify\n\n\n  \n    \n\n\n\n\n\n\npid\nplaylist_name\npos\nartist_name\ntrack_name\nduration_ms\nalbum_name\n\n\n\n\n0\n0\nThrowbacks\n0\nMissy Elliott\nLose Control (feat. Ciara & Fat Man Scoop)\n226863\nThe Cookbook\n\n\n1\n0\nThrowbacks\n1\nBritney Spears\nToxic\n198800\nIn The Zone\n\n\n2\n0\nThrowbacks\n2\nBeyoncé\nCrazy In Love\n235933\nDangerously In Love (Alben für die Ewigkeit)\n\n\n3\n0\nThrowbacks\n3\nJustin Timberlake\nRock Your Body\n267266\nJustified\n\n\n4\n0\nThrowbacks\n4\nShaggy\nIt Wasn't Me\n227600\nHot Shot\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n198000\n999998\n✝️\n6\nChris Tomlin\nWaterfall\n209573\nLove Ran Red\n\n\n198001\n999998\n✝️\n7\nChris Tomlin\nThe Roar\n220106\nLove Ran Red\n\n\n198002\n999998\n✝️\n8\nCrowder\nLift Your Head Weary Sinner (Chains)\n224666\nNeon Steeple\n\n\n198003\n999998\n✝️\n9\nChris Tomlin\nWe Fall Down\n280960\nHow Great Is Our God: The Essential Collection\n\n\n198004\n999998\n✝️\n10\nCaleb and Kelsey\n10,000 Reasons / What a Beautiful Name\n178189\n10,000 Reasons / What a Beautiful Name\n\n\n\n\n198005 rows × 7 columns\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n  \n    \n    \n\n  \n    \n  \n    \n    \n  \n\n    \n  \n\n\n\nMy favorite artist is Miranda Lambert, lets see which of her songs are in this dataframe.\n\n_mir = (\n    spotify[spotify['artist_name']=='Miranda Lambert'] #sort out my FAV artist\n    .drop_duplicates(subset=['track_name']) # list each track only once, as it may be in multiple playlists\n    )\n\n_mir[[\"artist_name\", 'track_name']] # list only artist name and track, rest is gibberish\n\n\n  \n    \n\n\n\n\n\n\nartist_name\ntrack_name\n\n\n\n\n2691\nMiranda Lambert\nMama's Broken Heart\n\n\n2820\nMiranda Lambert\nWhite Liar\n\n\n3153\nMiranda Lambert\nSomethin' Bad - (Duet with Carrie Underwood)\n\n\n3154\nMiranda Lambert\nGunpowder & Lead\n\n\n3155\nMiranda Lambert\nThe House That Built Me\n\n\n3156\nMiranda Lambert\nLittle Red Wagon\n\n\n3158\nMiranda Lambert\nOnly Prettier\n\n\n3159\nMiranda Lambert\nHeart Like Mine\n\n\n3679\nMiranda Lambert\nFastest Girl in Town\n\n\n23681\nMiranda Lambert\nTin Man\n\n\n23725\nMiranda Lambert\nOver You\n\n\n24102\nMiranda Lambert\nSmokin' and Drinkin' - [feat. Little Big Town]\n\n\n24104\nMiranda Lambert\nAutomatic\n\n\n24106\nMiranda Lambert\nBaggage Claim - Radio Edit\n\n\n24115\nMiranda Lambert\nVice\n\n\n26837\nMiranda Lambert\nSweet By and By\n\n\n59168\nMiranda Lambert\nMe and Your Cigarettes\n\n\n65727\nMiranda Lambert\nAll Kinds of Kinds\n\n\n78348\nMiranda Lambert\nWe Should Be Friends\n\n\n104090\nMiranda Lambert\nKerosene\n\n\n104227\nMiranda Lambert\nMore Like Her\n\n\n136779\nMiranda Lambert\nCrazy Ex-Girlfriend\n\n\n141663\nMiranda Lambert\nMaintain the Pain\n\n\n193214\nMiranda Lambert\nLove Song\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\n\nLets see what song in the Spotify dateframe has the longest runtime.\n\nspotify.sort_values('duration_ms', ascending= False)[:1]\n\n\n  \n    \n\n\n\n\n\n\npid\nplaylist_name\npos\nartist_name\ntrack_name\nduration_ms\nalbum_name\n\n\n\n\n196517\n999977\nAudiobooks\n6\nDBS Audiobooks\nThe Hound of the Baskervilles - Sir Arthur Con...\n20744575\nThe Hound of the Baskervilles - Sir Arthur Con...\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n    \n  \n\n\n\n\nLets see what the average length of one of Miranda Lamberts songs is.\n\nave = _mir['duration_ms'].mean().round()\nave\n\n210422.0\n\n\n\n\nLets see how many songs by Miranda Lambert have a shorter runtime than the average we found above\n\n_mir.query(f\"duration_ms &lt; {ave}\")\n\n\n  \n    \n\n\n\n\n\n\npid\nplaylist_name\npos\nartist_name\ntrack_name\nduration_ms\nalbum_name\n\n\n\n\n2691\n44\ntaylor swift\n12\nMiranda Lambert\nMama's Broken Heart\n177773\nFour The Record\n\n\n3153\n55\nTennessee\n28\nMiranda Lambert\nSomethin' Bad - (Duet with Carrie Underwood)\n169586\nPlatinum\n\n\n3154\n55\nTennessee\n29\nMiranda Lambert\nGunpowder & Lead\n191693\nCrazy Ex-Girlfriend\n\n\n3156\n55\nTennessee\n31\nMiranda Lambert\nLittle Red Wagon\n204386\nPlatinum\n\n\n3158\n55\nTennessee\n33\nMiranda Lambert\nOnly Prettier\n189440\nRevolution\n\n\n3159\n55\nTennessee\n34\nMiranda Lambert\nHeart Like Mine\n177866\nRevolution\n\n\n3679\n64\nElizabeth\n41\nMiranda Lambert\nFastest Girl in Town\n197600\nFour The Record\n\n\n24106\n378\ncountry\n59\nMiranda Lambert\nBaggage Claim - Radio Edit\n197546\nFour The Record\n\n\n59168\n879\nCountry\n10\nMiranda Lambert\nMe and Your Cigarettes\n144133\nRevolution\n\n\n78348\n1161\ncountry favs\n51\nMiranda Lambert\nWe Should Be Friends\n170746\nThe Weight of These Wings\n\n\n104090\n1558\nGood Country\n8\nMiranda Lambert\nKerosene\n185800\nKerosene\n\n\n104227\n1558\nGood Country\n145\nMiranda Lambert\nMore Like Her\n208866\nCrazy Ex-Girlfriend\n\n\n136779\n999037\nhick\n39\nMiranda Lambert\nCrazy Ex-Girlfriend\n187573\nCrazy Ex-Girlfriend\n\n\n141663\n999115\nDixie\n43\nMiranda Lambert\nMaintain the Pain\n137533\nRevolution\n\n\n193214\n999915\nSexy\n49\nMiranda Lambert\nLove Song\n169866\nRevolution"
   }
 ]
