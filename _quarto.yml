@@ -15,10 +15,6 @@ website:
           - text: The Ear as a Fourier Trnasformation
             href: Least_Squares.pdf
         
-      - text: Place_Holder
-#        menu:
-#          - text: Pandas Basics
-#            href: pandas_basics.ipynb
       
             
   page-footer: 
