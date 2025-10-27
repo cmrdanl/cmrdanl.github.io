@@ -12,8 +12,8 @@ about:
       href: https://github.com/cmrdanl/cmrdanl.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: Resume Roos,Caitlin.pdf
-      target: _blank
+      href: Resume Roos, Caitlin.pdf
+      target: _blank  
     - icon: mailbox
       text: Email
       href: mailto:cmr101@geneseo.edu
