@@ -17,6 +17,10 @@ about:
     - icon: mailbox
       text: Email
       href: mailto:cmr101@geneseo.edu
+    - icon: address-card
+      text: LinkedIn Profile
+      href: https://www.linkedin.com/in/caitlin-mae-roos/
+   
 
 ---
 
